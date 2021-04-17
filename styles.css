@@ -1,0 +1,294 @@
+/*
+HERNAN
+*/
+
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+a:link {
+	color: #131212;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #0f0e0e;
+}
+
+a:visited {
+	color: #9e1111;
+}
+
+body {
+	
+	background: #003366 url(images/back_all.gif);
+	font: 13px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+#content
+{
+	margin: 0 auto;
+	width: 868px;
+	border-left: 10px solid #ffffff;
+	border-right: 10px solid #ffffff;
+}
+
+
+#header {
+	height: 252px;
+	width: 868px;
+	
+}
+
+#menu
+{
+width: 718px;
+height: 67px;
+padding-left: 150px;
+background: url(images/menu.gif) repeat-x;
+}
+
+#menu ul {
+	list-style: none;	
+}
+
+#menu li {
+	
+	display: inline; 
+	
+}
+
+#menu a {
+	float: left;
+	width: 113px;
+	height: 45px;
+    display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #0b0b0c;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-top: 22px;
+}
+
+#menu a:hover {
+	width: 113px;
+    height: 45px;
+	color: #101011;
+	text-decoration: underline;
+	background: url(images/menu_r.gif) repeat-x;
+}
+
+
+.more
+{
+text-align: right;
+}
+
+
+#logo {
+width: 848px;
+float: right;
+height: 168px;
+text-align:  right;
+padding-right: 20px;
+padding-top: 20px;
+background: url(images/header.jpg) no-repeat;	
+}
+
+
+#logo a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 18px;
+	color: #0f0f0f;
+}
+#logo H2 a
+{
+font-size: 12px;
+}
+
+#main
+{
+background: #0d0d0e;
+padding-top: 10px;
+}
+
+#left
+{
+	margin-left: 10px;
+	width: 221px;
+}
+
+#left H3
+{
+width: 196px;
+height: 33px;
+font-size: 14px;
+font-weight: bold;
+padding-left: 25px;
+padding-top: 15px;
+text-transform: uppercase;
+color: #ffffff;
+background: url(images/title.gif) no-repeat
+}
+
+
+#left ul {
+	list-style: none;
+}
+
+#left li ul {
+	border: 0px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+#left li li {
+	padding: 4px 15px;
+    background: url(images/small.gif) no-repeat left;
+}
+
+#left .title_back
+{
+background: url(images/title_back.gif) no-repeat;
+padding: 10px;
+}
+
+
+#left a {
+	color: #23609C;
+}
+#left a:visited {
+	color: #23609C;
+}
+
+#left p
+{
+padding: 10px;
+padding-left: 40px;
+}
+
+
+#calendar1 {
+	padding: 0 10px 20px 10px;
+}
+
+#calendar table {
+	width: 100%;
+	text-align: center;
+}
+
+#calendar thead {
+
+}
+
+#calendar tbody td {
+	border: 1px solid #111111;
+}
+
+#calendar #prev {
+	text-align: left;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+#calendar tfoot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#calendar #now {
+	background: #696969;
+	border: 1px solid #ff0000;
+	font-weight: bold;
+	color: #0e0d0d
+}
+
+#right
+{
+float: right;
+width: 620px;
+padding-right: 10px;
+}
+
+#right .box
+{
+border: 1px solid #C9C9C9;
+background: #F5F5F5;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+#right ol, #right ul
+{
+margin-left: 30px;
+}
+
+#right H4
+{
+	margin: 0;
+	padding: 0px;
+	font-size: 12px;
+	color: #23609C;
+}
+
+#right a
+{
+color: #B5AA6D;
+text-decoration: none;
+}
+
+#right p {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+#right .date2 {
+	margin: 10px;
+	padding: 0;
+	padding-top: 5px;
+}
+
+#right h2 {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	color: #B5AA6D;
+}
+.date {
+	text-align: right;
+	color: #B5AA6D;
+	font-size: 11px;
+}
+
+.date a {
+	color: #23609C;
+}
+
+
+#footer {
+	height: 39px;
+	clear: both;
+	padding-top: 20px;
+	background: url(images/menu_r.gif) repeat-x; 
+}
+
+#footer p {
+	margin: 0;
+	font-size: 10px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#footer a {
+	color: #ffffff;
+}
